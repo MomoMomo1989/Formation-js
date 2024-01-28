@@ -3,12 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="index.css">    
     <title>Document</title>
 </head>
 <body>
- <div class="">
-    <h1>TP</h1>
- </div>
+    <form>
+        <fieldset id="livraison">
+          <legend>Adresse de livraison</legend>
+          <div>
+            <label for="nom1">Nom : </label>
+            <input id="nom1" name="nom1" type="text" required />
+          </div>
+          <div>
+            <label for="adresse1">Adresse : </label>
+            <input id="adresse1" name="adresse1" type="text" required />
+          </div>
+          <div>
+            <label for="codepostal1">Code postal : </label>
+            <input id="codepostal1" name="codepostal1" type="text" required />
+          </div>
+        </fieldset>
+        <fieldset id="facturation">
+          <legend>Adresse de facturation</legend>
+          <div>
+            <label for="facturation-checkbox"
+              >Identique à l'adresse de livraison :</label
+            >
+            <input type="checkbox" id="facturation-checkbox" checked />
+          </div>
+          <div>
+            <label for="nom" class="libelle-facturation libelle-desactive"
+              >Nom :
+            </label>
+            <input id="nom" name="nom" type="text" disabled required />
+          </div>
+          <div>
+            <label for="adresse2" class="libelle-facturation libelle-desactive"
+              >Adresse :
+            </label>
+            <input id="adresse2" name="adresse2" type="text" disabled required />
+          </div>
+          <div>
+            <label for="codepostal2" class="libelle-facturation libelle-desactive"
+              >Code postal :
+            </label>
+            <input
+              id="codepostal2"
+              name="codepostal2"
+              type="text"
+              disabled
+              required />
+          </div>
+        </fieldset>
+      
+        <div><button>Envoyer</button></div>
+      </form>
 
     <script src="script/script.js"></script>
 </body>
