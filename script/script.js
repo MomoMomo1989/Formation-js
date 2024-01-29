@@ -37,3 +37,6 @@ document.addEventListener(
       }
     }
   }
+  const x = 12;
+  x = 5555;
+  console.log()
