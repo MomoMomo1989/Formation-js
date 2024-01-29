@@ -28,7 +28,7 @@ const art2 = [
         nom:"p14",
         prenom:"p24",
         age:174,
-        aureinf:["inf14",2,"inf34"]
+        aureinf:["inf14",22,"inf34"]
     },
     {
         nom:"p15",
@@ -47,3 +47,12 @@ console.log(JSON.stringify(art2))
 for (let x of art2){
     console.log(x.aureinf[0])
 }
+const ts1 = art2.map((x)=>{
+    return x.age
+})
+console.log(ts1)
+
+const flt = art2.filter((x) => {
+   return x.aureinf[1] > 10
+})
+console.log(flt)
