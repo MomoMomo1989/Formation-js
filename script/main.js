@@ -1,3 +1,5 @@
+
+("use strict");        
 const st1 = ["cc1", "cc2", "cc3"];
 console.log(st1);
 
@@ -50,9 +52,9 @@ for (let x of art2){
 const ts1 = art2.map((x)=>{
     return x.age
 })
-console.log(ts1)
-
+console.log(ts1);
 const flt = art2.filter((x) => {
    return x.aureinf[1] > 10
 })
-console.log(flt)
+console.log(flt);
+
