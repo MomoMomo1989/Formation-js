@@ -1,0 +1,12 @@
+body{
+    position: relative;
+}
+#ff{
+    cursor: pointer;
+}
+.cls{
+    transition: 5ms;
+    position: absolute;
+    top : 2px;
+    right : 12px;
+}

@@ -41,4 +41,4 @@ function resltt(re){
 localStorage.setItem("azul","123456");
 console.log(localStorage.getItem("azul"));
 sessionStorage.setItem("lg","FR");
-console.log(sessionStorage.getItem("lg"));
+console.log(sessionStorage.getItem("lg")); 
